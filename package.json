@@ -9,6 +9,7 @@
   "author": "Rob Frampton",
   "license": "ISC",
   "dependencies": {
-    "gulp": "*"
+    "gulp": "^3.8.7",
+    "gulp-replace": "^0.4.0"
   }
 }
