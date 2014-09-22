@@ -1,0 +1,14 @@
+{
+  "name": "less-sass-converter",
+  "version": "0.0.0",
+  "description": "Regex tool for aiding in converting less files to sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rob Frampton",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "*"
+  }
+}
