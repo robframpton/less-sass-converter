@@ -1,13 +1,16 @@
 {
   "name": "less-sass-converter",
+  "description": "Regex tool for aiding in converting Bootstrap less files to sass for use on Liferay Portal 6.2",
   "version": "0.0.0",
-  "description": "Regex tool for aiding in converting less files to sass",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "author": {
+    "name": "Rob Frampton",
+    "email": "robert.frampton@liferay.com"
   },
-  "author": "Rob Frampton",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Robert-Frampton/less-sass-converter"
+  },
   "dependencies": {
     "gulp": "^3.8.7",
     "gulp-rename": "^1.2.0",
