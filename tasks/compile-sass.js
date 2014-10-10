@@ -3,7 +3,6 @@ var chalk = require('chalk');
 var file = require('gulp-file');
 var fs = require('fs');
 var gulp = require('gulp');
-var merge = require('merge-stream');
 var rename = require('gulp-rename');
 var rimraf = require('gulp-rimraf');
 var sass = require('gulp-sass');
