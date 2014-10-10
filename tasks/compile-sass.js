@@ -27,14 +27,14 @@ gulp.task(
     function(callback) {
         var menu = terminalMenu({
           bg: 'black',
-          width: 40,
+          width: 27,
           x: 4,
           y: 2
         });
 
         menu.reset();
         menu.write('Select a Bootstrap version\n');
-        menu.write('-------------------------\n');
+        menu.write('--------------------------\n');
 
         menu.add('2.3.2');
         menu.add('3.2.0');
