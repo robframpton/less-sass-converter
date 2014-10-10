@@ -24,7 +24,7 @@ var terminalMenu = require('terminal-menu');
 
 gulp.task(
     'compile-sass',
-    function() {
+    function(callback) {
         var menu = terminalMenu({
           bg: 'black',
           width: 40,
@@ -44,14 +44,14 @@ gulp.task(
 
             console.log('Compiling ' + label + ' Bootstrap theme.');
 
-            compileSass(label);
+            compileSass(label, callback);
         });
 
         menu.createStream().pipe(process.stdout);
     }
 );
 
-function compileSass(version) {
+function compileSass(version, callback) {
     var buffer = bootstrapImports[version];
 
     fs.readdir(
@@ -87,6 +87,8 @@ function compileSass(version) {
                         onError: sassCompileErrorHandler
                     }))
                     .pipe(gulp.dest('build'));
+
+                callback();
             }
         }
     );
