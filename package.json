@@ -12,8 +12,17 @@
     "url": "https://github.com/Robert-Frampton/less-sass-converter"
   },
   "dependencies": {
+    "chalk": "^0.5.1",
     "gulp": "^3.8.7",
+    "gulp-file": "^0.1.0",
     "gulp-rename": "^1.2.0",
-    "gulp-replace-task": "0.0.6"
+    "gulp-replace-task": "0.0.6",
+    "gulp-rimraf": "^0.1.1",
+    "gulp-sass": "1.0.0",
+    "lodash": "^2.4.1",
+    "merge-stream": "^0.1.6",
+    "require-dir": "^0.1.0",
+    "run-sequence": "^1.0.1",
+    "terminal-menu": "^0.3.2"
   }
 }
