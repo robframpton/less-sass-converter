@@ -16,7 +16,7 @@ gulp.task(
     'convert',
     ['clean'],
     function() {
-        return gulp.src('convert/*.less')
+        return gulp.src('convert/**/*.less')
             .pipe(replace({ patterns: patterns }))
             .pipe(rename({ extname: '.scss' }))
             .pipe(gulp.dest('build'));
